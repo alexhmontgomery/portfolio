@@ -4,7 +4,7 @@ export default class About extends Component {
   render () {
     return (
       <div className='card'>
-        <img className='card-img-top' src='http://media.ellentv.com/2013/12/19/matthew-mcconaughey-episode-1-1200x630.jpg' alt='Card image cap' />
+        <img className='card-img-top' src='http://media.ellentv.com/2013/12/19/matthew-mcconaughey-episode-1-1200x630.jpg' alt='looking-straight' />
         <div clasName='card-block'>
           <h4 className='card-title'>About the man:</h4>
         </div>

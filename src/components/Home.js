@@ -6,7 +6,7 @@ export default class Home extends Component {
     return (
       <div className='home'>
         <div className='card'>
-          <img className='card-img-top' src='http://img.usmagazine.com/social/matthew-mcconaughe-2-d5bc6c01-24f4-4877-959b-1a8e6e5d0ac2.jpg' alt='Card image cap' />
+          <img className='card-img-top' src='http://img.usmagazine.com/social/matthew-mcconaughe-2-d5bc6c01-24f4-4877-959b-1a8e6e5d0ac2.jpg' alt='texas-shirt' />
 
         </div>
         <div className='jumbotron'>

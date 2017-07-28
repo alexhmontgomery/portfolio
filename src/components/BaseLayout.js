@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {Link} from 'react-router-dom'
+import {NavLink} from 'react-router-dom'
 
 export default class BaseLayout extends Component {
   render () {
@@ -9,12 +9,14 @@ export default class BaseLayout extends Component {
           <button className='navbar-toggler navbar-toggler-right' type='button' data-toggle='collapse' data-target='#navbarNavAltMarkup' aria-controls='navbarNavAltMarkup' aria-expanded='false' aria-label='Toggle navigation'>
             <span className='navbar-toggler-icon' />
           </button>
-          <Link className='navbar-brand' to='#'>Matthew McConaughey</Link>
+          <NavLink className='navbar-brand' to='#'>Matthew McConaughey</NavLink>
           <div className='collapse navbar-collapse' id='navbarNavAltMarkup'>
             <div className='navbar-nav'>
-              <Link className='nav-item nav-link' to='/'>Home</Link>
-              <Link className='nav-item nav-link' to='/about'>About</Link>
-              <Link className='nav-item nav-link' to='/portfolio'>Portfolio</Link>
+              <NavLink className='nav-item nav-link' exact to='/'>Home</NavLink>
+              <NavLink className='nav-item nav-link' to='/about'>About</NavLink>
+              <NavLink className='nav-item nav-link' to='/portfolio'>Portfolio</NavLink>
+              <NavLink className='nav-item nav-link' to='/contact'>Contact</NavLink>
+              <NavLink className='nav-item nav-link' to='/references'>References</NavLink>
             </div>
           </div>
         </nav>
